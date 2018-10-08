@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.games.user.memorama.SubMenu">
+
+    <ImageView
+        android:id="@+id/siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="siguiente"
+        app:srcCompat="@drawable/invierno1"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <ImageView
+        android:id="@+id/menuprincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="menuprincipal"
+        app:srcCompat="@drawable/primavera1"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="210dp" />
+</LinearLayout>
